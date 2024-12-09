@@ -1,0 +1,85 @@
+.password_manager_page {
+  background-image: linear-gradient(to top, #c3caea, #9ba9eb);
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.password_manager_content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 15px;
+  width: 800px;
+}
+.app_logo {
+  height: 60px;
+}
+.password_manager_image {
+  height: 250px;
+}
+.password_container {
+  display: flex;
+  border-radius: 6px;
+  background-color: #5763a5;
+  padding: 25px;
+  border-radius: 10px;
+  gap: 20px;
+}
+
+.manage_password_container {
+  background-color: #5763a5;
+  padding: 5px 20px;
+  border-radius: 10px;
+  list-style: none;
+}
+.add_new_password_heading {
+  font-size: 20px;
+  font-family: roboto;
+  color: #fff;
+}
+.add_password_field {
+  background-color: #454f84;
+  padding: 25px;
+  border-radius: 6px;
+}
+.input_field_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  gap: 6px;
+  margin-bottom: 12px;
+  border-radius: 3px;
+}
+.input_field_logo {
+  height: 25px;
+  padding: 3px;
+}
+.verical_line {
+  border-right: 1px solid #c3caea;
+  height: 30px;
+}
+.input_field {
+  border: none;
+  outline: none;
+  padding-right: 15px;
+}
+.password_manager_image_wrapper {
+  padding: 10px;
+}
+.add_button_wrpper {
+  text-align: end;
+}
+.add_button {
+  background-color: #0b69ff;
+  padding: 5px 20px;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+.search_input_field {
+  /* border: none; */
+  outline: none;
+}
